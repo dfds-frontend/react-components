@@ -1,0 +1,17 @@
+{
+  "name": "@dfds-shared/colors",
+  "description": "Shared colors within DFDS",
+  "private": false,
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "yarn run clean && yarn run build:babel && yarn build:types",
+    "build:babel": "dfds-script babel",
+    "build:types": "tsc --declaration --emitDeclarationOnly",
+    "clean": "rimraf dist",
+    "prepublish": "yarn run build",
+    "tsc": "tsc --noEmit"
+  }
+}

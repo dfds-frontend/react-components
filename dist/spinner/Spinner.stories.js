@@ -1,0 +1,35 @@
+import _styled from "@emotion/styled-base";
+import { jsx as ___EmotionJSX } from "@emotion/core";
+import React from 'react';
+import { storiesOf } from '@storybook/react';
+import Spinner, { CenteredSpinner } from './Spinner';
+import { palette } from '@dfds-shared/colors';
+var stories = storiesOf('UI|Spinner', module);
+
+var SmallSpinner = function SmallSpinner(_ref) {
+  var className = _ref.className;
+  return ___EmotionJSX(Spinner, {
+    className: className,
+    size: "1.5rem"
+  });
+};
+
+var ColoredSpinner =
+/*#__PURE__*/
+_styled(SmallSpinner, {
+  target: "e1h7vlke0"
+})("color:", palette.actionBlue.primary, ";" + (process.env.NODE_ENV === "production" ? "" : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9zcGlubmVyL1NwaW5uZXIuc3Rvcmllcy50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBWTJDIiwiZmlsZSI6Ii4uLy4uL3NyYy9zcGlubmVyL1NwaW5uZXIuc3Rvcmllcy50c3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXHJcbmltcG9ydCB7IHN0b3JpZXNPZiB9IGZyb20gJ0BzdG9yeWJvb2svcmVhY3QnXHJcbmltcG9ydCBTcGlubmVyLCB7IENlbnRlcmVkU3Bpbm5lciB9IGZyb20gJy4vU3Bpbm5lcidcclxuaW1wb3J0IHN0eWxlZCBmcm9tICdAZW1vdGlvbi9zdHlsZWQnXHJcbmltcG9ydCB7IHBhbGV0dGUgfSBmcm9tICdAZGZkcy1zaGFyZWQvY29sb3JzJ1xyXG5cclxuY29uc3Qgc3RvcmllcyA9IHN0b3JpZXNPZignVUl8U3Bpbm5lcicsIG1vZHVsZSlcclxuXHJcbmNvbnN0IFNtYWxsU3Bpbm5lciA9ICh7IGNsYXNzTmFtZSB9OiB7IGNsYXNzTmFtZT86IHN0cmluZyB9KSA9PiB7XHJcbiAgcmV0dXJuIDxTcGlubmVyIGNsYXNzTmFtZT17Y2xhc3NOYW1lfSBzaXplPVwiMS41cmVtXCIgLz5cclxufVxyXG5cclxuY29uc3QgQ29sb3JlZFNwaW5uZXIgPSBzdHlsZWQoU21hbGxTcGlubmVyKWBcclxuICBjb2xvcjogJHtwYWxldHRlLmFjdGlvbkJsdWUucHJpbWFyeX07XHJcbmBcclxuXHJcbnN0b3JpZXMuYWRkKCdTcGlubmVyJywgKCkgPT4gKFxyXG4gIDw+XHJcbiAgICA8U21hbGxTcGlubmVyIC8+XHJcbiAgICA8Q29sb3JlZFNwaW5uZXIgLz5cclxuICA8Lz5cclxuKSlcclxuXHJcbmNvbnN0IENvbG9yZWRDZW50ZXJlZFNwaW5uZXIgPSBzdHlsZWQoQ2VudGVyZWRTcGlubmVyKWBcclxuICBjb2xvcjogJHtwYWxldHRlLmdyb3VwQmx1ZS5wcmltYXJ5fTtcclxuICBmb250LXNpemU6IDZyZW07XHJcbmBcclxuXHJcbnN0b3JpZXMuYWRkKCdDZW50ZXJlZCBzcGlubmVyJywgKCkgPT4gKFxyXG4gIDw+XHJcbiAgICA8Q29sb3JlZENlbnRlcmVkU3Bpbm5lciAvPlxyXG4gIDwvPlxyXG4pKVxyXG4iXX0= */"));
+
+stories.add('Spinner', function () {
+  return ___EmotionJSX(React.Fragment, null, ___EmotionJSX(SmallSpinner, null), ___EmotionJSX(ColoredSpinner, null));
+});
+
+var ColoredCenteredSpinner =
+/*#__PURE__*/
+_styled(CenteredSpinner, {
+  target: "e1h7vlke1"
+})("color:", palette.groupBlue.primary, ";font-size:6rem;" + (process.env.NODE_ENV === "production" ? "" : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9zcGlubmVyL1NwaW5uZXIuc3Rvcmllcy50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBdUJzRCIsImZpbGUiOiIuLi8uLi9zcmMvc3Bpbm5lci9TcGlubmVyLnN0b3JpZXMudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xyXG5pbXBvcnQgeyBzdG9yaWVzT2YgfSBmcm9tICdAc3Rvcnlib29rL3JlYWN0J1xyXG5pbXBvcnQgU3Bpbm5lciwgeyBDZW50ZXJlZFNwaW5uZXIgfSBmcm9tICcuL1NwaW5uZXInXHJcbmltcG9ydCBzdHlsZWQgZnJvbSAnQGVtb3Rpb24vc3R5bGVkJ1xyXG5pbXBvcnQgeyBwYWxldHRlIH0gZnJvbSAnQGRmZHMtc2hhcmVkL2NvbG9ycydcclxuXHJcbmNvbnN0IHN0b3JpZXMgPSBzdG9yaWVzT2YoJ1VJfFNwaW5uZXInLCBtb2R1bGUpXHJcblxyXG5jb25zdCBTbWFsbFNwaW5uZXIgPSAoeyBjbGFzc05hbWUgfTogeyBjbGFzc05hbWU/OiBzdHJpbmcgfSkgPT4ge1xyXG4gIHJldHVybiA8U3Bpbm5lciBjbGFzc05hbWU9e2NsYXNzTmFtZX0gc2l6ZT1cIjEuNXJlbVwiIC8+XHJcbn1cclxuXHJcbmNvbnN0IENvbG9yZWRTcGlubmVyID0gc3R5bGVkKFNtYWxsU3Bpbm5lcilgXHJcbiAgY29sb3I6ICR7cGFsZXR0ZS5hY3Rpb25CbHVlLnByaW1hcnl9O1xyXG5gXHJcblxyXG5zdG9yaWVzLmFkZCgnU3Bpbm5lcicsICgpID0+IChcclxuICA8PlxyXG4gICAgPFNtYWxsU3Bpbm5lciAvPlxyXG4gICAgPENvbG9yZWRTcGlubmVyIC8+XHJcbiAgPC8+XHJcbikpXHJcblxyXG5jb25zdCBDb2xvcmVkQ2VudGVyZWRTcGlubmVyID0gc3R5bGVkKENlbnRlcmVkU3Bpbm5lcilgXHJcbiAgY29sb3I6ICR7cGFsZXR0ZS5ncm91cEJsdWUucHJpbWFyeX07XHJcbiAgZm9udC1zaXplOiA2cmVtO1xyXG5gXHJcblxyXG5zdG9yaWVzLmFkZCgnQ2VudGVyZWQgc3Bpbm5lcicsICgpID0+IChcclxuICA8PlxyXG4gICAgPENvbG9yZWRDZW50ZXJlZFNwaW5uZXIgLz5cclxuICA8Lz5cclxuKSlcclxuIl19 */"));
+
+stories.add('Centered spinner', function () {
+  return ___EmotionJSX(React.Fragment, null, ___EmotionJSX(ColoredCenteredSpinner, null));
+});

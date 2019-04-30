@@ -1,0 +1,36 @@
+{
+  "version": "0.0.16",
+  "description": "Shared react components within DFDS",
+  "license": "UNLICENSED",
+  "private": false,
+  "vsts-version": "0.1.15",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "esnext": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "name": "react-components",
+  "scripts": {},
+  "dependencies": {
+    "@dfds-shared/colors": "link:./colors",
+    "@dfds-shared/fonts": "link:./fonts",
+    "@dfds-shared/icons": "link:./icons",
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
+    "emotion-theming": "^10.0.10"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfds-frontend/react-components.git"
+  },
+  "keywords": [],
+  "author": "DFDS",
+  "bugs": {
+    "url": "https://github.com/dfds-frontend/react-components/issues"
+  },
+  "homepage": "https://github.com/dfds-frontend/react-components#readme"
+}

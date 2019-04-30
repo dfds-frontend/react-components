@@ -1,0 +1,18 @@
+{
+  "name": "@dfds-shared/icons",
+  "description": "Shared icons within DFDS",
+  "license": "UNLICENSED",
+  "private": false,
+  "version": "0.0.5",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
