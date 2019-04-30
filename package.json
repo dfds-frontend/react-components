@@ -1,5 +1,6 @@
 {
-  "version": "0.0.16",
+  "name": "@dfds-frontend/react-components",
+  "version": "0.0.17",
   "description": "Shared react components within DFDS",
   "license": "UNLICENSED",
   "private": false,
@@ -8,7 +9,6 @@
   "module": "./dist/index.js",
   "esnext": "./dist/index.js",
   "typings": "./dist/index.d.ts",
-  "name": "react-components",
   "scripts": {},
   "dependencies": {
     "@dfds-shared/colors": "link:./colors",
