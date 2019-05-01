@@ -4,5 +4,10 @@
   "private": false,
   "version": "0.0.1",
   "main": "./index.js",
-  "module": "./index.js"
+  "module": "./index.js",
+  "dependencies": {
+    "@dfds-shared/colors": "link:./node_modules/@dfds-frontend/react-components/colors",
+    "@dfds-shared/fonts": "link:./node_modules/@dfds-frontend/react-components/fonts",
+    "@dfds-shared/icons": "link:./node_modules/@dfds-frontend/react-components/icons"
+  }
 }
