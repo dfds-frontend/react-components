@@ -1,6 +1,6 @@
 {
   "name": "@dfds-frontend/react-components",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "Shared react components within DFDS",
   "license": "UNLICENSED",
   "private": false,
@@ -14,6 +14,7 @@
     "@dfds-shared/colors": "link:./colors",
     "@dfds-shared/fonts": "link:./fonts",
     "@dfds-shared/icons": "link:./icons",
+    "@dfds-shared/nav-bar": "link:./dist/nav-bar",
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.10",
     "emotion-theming": "^10.0.10"
