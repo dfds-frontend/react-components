@@ -1,0 +1,8 @@
+{
+  "name": "@dfds-shared/nav-bar",
+  "description": "DFDS",
+  "private": false,
+  "version": "0.0.1",
+  "main": "./index.js",
+  "module": "./index.js"
+}
